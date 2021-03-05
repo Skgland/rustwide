@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - New variant `PrepareError::MissingDependencies`, returned during the prepare
   step when a dependency does not exist.
+- New method `Toolchain::rustup_binary` to allow running arbitrary binaries managed by rustup. Before, only `rustc` and `cargo` could be run.
 
 ### Changed
 
